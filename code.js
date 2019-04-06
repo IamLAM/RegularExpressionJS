@@ -34,3 +34,10 @@ let extract6 = "dont worry about the thing, every little thing its gonna be all 
 let codingRegex6 = /.on./g;
 let result6 = extract6.match(codingRegex6);
 console.log(result6);
+
+//matching a data group
+
+let extract7 = "dont worry about the thing, every little thing its gonna be all right, dont worry";
+let codingRegex7 = /[aeiou]/gi;
+let result7 = extract7.match(codingRegex7);
+console.log(result7);
