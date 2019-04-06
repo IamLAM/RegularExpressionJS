@@ -28,3 +28,9 @@ let extract5 = "dont worry about the thing, every little thing its gonna be all 
 let codingRegex5 = /worry/gi;
 let result5 = extract5.match(codingRegex5);
 console.log(result5);
+
+//extracting matches and getting several coincidences with dot (.)
+let extract6 = "dont worry about the thing, every little thing its gonna be all right, dont worry";
+let codingRegex6 = /.on./g;
+let result6 = extract6.match(codingRegex6);
+console.log(result6);
