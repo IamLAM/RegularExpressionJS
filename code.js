@@ -112,3 +112,9 @@ let extract18 = "dont worry about the thing, ### 9 every little thing its gonna 
 let codingRegex18 = /\D/gi;
 let result18 = extract18.match(codingRegex18);
 console.log(result18);
+
+// Matching whitespace and counting
+let extract19 = "dont worry about the thing, ### 9 every little thing its gonna be all 6 right,555 % dont worry";
+let codingRegex19 = /\s/g;
+let result19 = extract19.match(codingRegex19).length;
+console.log(result19);
