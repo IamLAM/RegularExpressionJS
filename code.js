@@ -76,3 +76,9 @@ let extract12 = "dont worry about the thing, every little thing its gonna be all
 let codingRegex12 = /ou*/;
 let result12 = extract12.match(codingRegex12);
 console.log(result12);
+
+//Matching the first word in the sentence
+let extract13 = "dont worry about the thing, every little thing its gonna be all right, dont worry";
+let codingRegex13 = /^dont/gi;
+let result13 = extract13.match(codingRegex13);
+console.log(result13);
