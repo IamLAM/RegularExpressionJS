@@ -139,3 +139,10 @@ let extract22 = "dont worryyyyyy, worry, worryyyyy, worryyy";
 let codingRegex22 = /Worry{3}/gi;
 let result22 = extract22.match(codingRegex22);
 console.log(result22); //without whitespace
+
+
+// Included or not included
+let extract23 = "favourite";
+let codingRegex23 = /favo?urite/gi;
+let result23 = extract23.match(codingRegex23);
+console.log(result23); //without whitespace
