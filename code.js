@@ -46,5 +46,12 @@ console.log(result7);
 
 let extract8 = "dont worry about the thing, every little thing its gonna be all right, dont worry";
 let codingRegex8 = /[a-z]/gi;
-let result8 = extract8.match(codingRegex7);
+let result8 = extract8.match(codingRegex8);
 console.log(result8);
+
+
+//Matching numbers and letters 
+let extract9 = "dont worry about the thing, every little thing its gonna be all right, dont worry";
+let codingRegex9 = /[a-z0-9]/gi;
+let result9 = extract9.match(codingRegex9);
+console.log(result9);
