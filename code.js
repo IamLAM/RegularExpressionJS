@@ -133,3 +133,9 @@ let extract21 = "dont worryyyyyy, worry, worryyyyy";
 let codingRegex21 = /Worry{3,5}/gi;
 let result21 = extract21.match(codingRegex21);
 console.log(result21); //without whitespace
+
+// Specifying exact number
+let extract22 = "dont worryyyyyy, worry, worryyyyy, worryyy";
+let codingRegex22 = /Worry{3}/gi;
+let result22 = extract22.match(codingRegex22);
+console.log(result22); //without whitespace
