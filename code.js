@@ -100,3 +100,9 @@ let extract16 = "dont worry about the thing, ### every little thing its gonna be
 let codingRegex16 = /\W/gi;
 let result16 = extract16.match(codingRegex16);
 console.log(result16);
+
+// Searching numbers and counting
+let extract17 = "dont worry about the thing, ### 9 every little thing its gonna be all 6 right,555 % dont worry";
+let codingRegex17 = /\d/gi;
+let result17 = extract17.match(codingRegex17).length;
+console.log(result17);
