@@ -64,3 +64,9 @@ let extract10 = "dont worry about the thing, every little thing its gonna be all
 let codingRegex10 = /[^aeiou0-9]/gi;
 let result10 = extract10.match(codingRegex10);
 console.log(result10);
+
+//When the character ocurrs one or more 
+let extract11 = "dont worry about the thing, every little thing its gonna be all right, dont worry";
+let codingRegex11 = /[ou]+/gi;
+let result11 = extract11.match(codingRegex11);
+console.log(result11);
