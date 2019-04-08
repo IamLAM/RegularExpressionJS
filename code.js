@@ -82,3 +82,9 @@ let extract13 = "dont worry about the thing, every little thing its gonna be all
 let codingRegex13 = /^dont/gi;
 let result13 = extract13.match(codingRegex13);
 console.log(result13);
+
+//Match ending word
+let extract14 = "dont worry about the thing, every little thing its gonna be all right, dont worry";
+let codingRegex14 = /worry$/;
+let result14 = extract14.match(codingRegex14);
+console.log(result14);
