@@ -94,3 +94,9 @@ let extract15 = "dont worry about the thing, every little thing its gonna be all
 let codingRegex15 = /\w/gi;
 let result15 = extract15.match(codingRegex15);
 console.log(result15);
+
+// (Opposite )Using shortcut for letters, numers, uppercase, lowercase and underscore. Its necesary to add gi
+let extract16 = "dont worry about the thing, ### every little thing its gonna be all right, % dont worry";
+let codingRegex16 = /\W/gi;
+let result16 = extract16.match(codingRegex16);
+console.log(result16);
