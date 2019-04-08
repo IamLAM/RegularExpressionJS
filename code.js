@@ -118,3 +118,12 @@ let extract19 = "dont worry about the thing, ### 9 every little thing its gonna 
 let codingRegex19 = /\s/g;
 let result19 = extract19.match(codingRegex19).length;
 console.log(result19);
+
+
+
+// (Opposite)Matching whitespace and counting .. its similar to [^ \r\t\f\n\v]. 
+let extract20 = "dont worry about the thing, ### 9 every little thing its gonna be all 6 right,555 % dont worry";
+let codingRegex20 = /\S/g;
+let result20 = extract20.match(codingRegex20).length;
+console.log(extract20.length); // whitespace
+console.log(result20); //without whitespace
