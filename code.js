@@ -106,3 +106,9 @@ let extract17 = "dont worry about the thing, ### 9 every little thing its gonna 
 let codingRegex17 = /\d/gi;
 let result17 = extract17.match(codingRegex17).length;
 console.log(result17);
+
+// (Opposite )Searching numbers and counting
+let extract18 = "dont worry about the thing, ### 9 every little thing its gonna be all 6 right,555 % dont worry";
+let codingRegex18 = /\D/gi;
+let result18 = extract18.match(codingRegex18);
+console.log(result18);
