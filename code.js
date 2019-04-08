@@ -55,3 +55,12 @@ let extract9 = "dont worry about the thing, every little thing its gonna be all 
 let codingRegex9 = /[a-z0-9]/gi;
 let result9 = extract9.match(codingRegex9);
 console.log(result9);
+
+
+/[^aeiou0-9]/;
+
+//Negated numbers and vowels
+let extract10 = "dont worry about the thing, every little thing its gonna be all right, dont worry";
+let codingRegex10 = /[^aeiou0-9]/gi;
+let result10 = extract10.match(codingRegex10);
+console.log(result10);
