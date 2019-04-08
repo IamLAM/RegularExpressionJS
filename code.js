@@ -41,3 +41,10 @@ let extract7 = "dont worry about the thing, every little thing its gonna be all 
 let codingRegex7 = /[aeiou]/gi;
 let result7 = extract7.match(codingRegex7);
 console.log(result7);
+
+//matching all letters using - and match
+
+let extract8 = "dont worry about the thing, every little thing its gonna be all right, dont worry";
+let codingRegex8 = /[a-z]/gi;
+let result8 = extract8.match(codingRegex7);
+console.log(result8);
