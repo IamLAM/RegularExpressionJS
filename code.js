@@ -127,3 +127,9 @@ let codingRegex20 = /\S/g;
 let result20 = extract20.match(codingRegex20).length;
 console.log(extract20.length); // whitespace
 console.log(result20); //without whitespace
+
+// Specifying number
+let extract21 = "dont worryyyyyy, worry, worryyyyy";
+let codingRegex21 = /Worry{3,5}/gi;
+let result21 = extract21.match(codingRegex21);
+console.log(result21); //without whitespace
