@@ -70,3 +70,9 @@ let extract11 = "dont worry about the thing, every little thing its gonna be all
 let codingRegex11 = /[ou]+/gi;
 let result11 = extract11.match(codingRegex11);
 console.log(result11);
+
+//When the character ocurrs zero or more 
+let extract12 = "dont worry about the thing, every little thing its gonna be all right, dont worry";
+let codingRegex12 = /ou*/;
+let result12 = extract12.match(codingRegex12);
+console.log(result12);
